@@ -62,7 +62,6 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
       }
     }
 
-    // TODO: upadate user profile
     await updateUser({
       name: values.name,
       path: pathname,
