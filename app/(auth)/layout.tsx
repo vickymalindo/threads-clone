@@ -20,7 +20,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         <body
           className={`${inter.className} bg-dark-1`}
           cz-shortcut-listen='false'>
-          {children}
+          <div className='flex justify-center items-center w-full min-h-screen'>
+            {children}
+          </div>
         </body>
       </html>
     </ClerkProvider>
